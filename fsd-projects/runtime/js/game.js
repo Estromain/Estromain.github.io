@@ -7,7 +7,7 @@
 
     window.opspark.createGameManager = function(app,hud) {
         var score = 0;
-        var health = 100;
+        var health = 1000;
         var view = app.view;
         var space = app.space;
 
