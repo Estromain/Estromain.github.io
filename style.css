@@ -52,6 +52,7 @@ main {
 }
 
 .sidebar {
+    margin-top: 110px;
     margin-right: 25px;
     padding: 10px;
 }
@@ -61,6 +62,7 @@ main {
 }
 
 .content {
+    position: absolute;
     flex: 1;
     padding: 15px;
 }
