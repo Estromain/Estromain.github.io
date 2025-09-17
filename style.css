@@ -61,8 +61,13 @@ main {
     width: 200px;
 }
 
-.content {
+.Content {
     position: absolute;
+    flex: 1;
+    padding: 15px;
+}
+
+.content {
     flex: 1;
     padding: 15px;
 }
