@@ -35,9 +35,10 @@ $(function () {
     createPlatform(0,100,1000,10,)
     createPlatform(0,200,1100,10)
     createPlatform(1100,600,50,200)
-    createPlatform(1130,500,280,50)
-    createPlatform(-100,500,350,50,100,100,500)
-
+    createPlatform(1130,500,350,50)
+    createPlatform(-100,500,350,50,1,0,100,1)
+    createPlatform(-100,450,600,10)
+    createPlatform(490,450,10,100)
     // TODO 3 - Create Collectables
     createCollectable("small",1300,550,5,1,1150,1350,2)
     createCollectable("small",1400,550,5,1,1150,1350,2)
