@@ -2,7 +2,7 @@
 const walkAcceleration = 1; // how much is added to the speed each frame
 const gravity = 1; // how much is subtracted from speedY each frame
 const friction = .5; // how much the player is slowed each frame
-const maxSpeed = 25; // maximum horizontal speed, not vertical
+const maxSpeed = 20; // maximum horizontal speed, not vertical
 const playerJumpStrength = 30; // this is subtracted from the speedY each jump
 const projectileSpeed = 2.5; // the speed of projectiles
 let shouldDrawGrid = false;
