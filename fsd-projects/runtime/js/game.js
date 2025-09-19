@@ -54,7 +54,10 @@
                     halle.die();
                 }
             }
+            
         }
+        
+        
 
         hud.setIntegrity(100);
         hud.updateOf(10000);
@@ -188,6 +191,8 @@
             view.removeChild(gameItem);
         }
 
+        
+        
         /* Convenience routine for creating a game item that:
           
            - moves at a fixed rate 

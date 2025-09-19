@@ -18,10 +18,10 @@ $(function () {
 
     // Create walls - do not delete or modify this code
     createPlatform(-50, -50, canvas.width + 100, 50); // top wall
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
+    // createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
-
+    
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
@@ -37,7 +37,7 @@ $(function () {
     createPlatform(1100,600,50,200)
     createPlatform(1130,500,350,50)
     createPlatform(110,500,240,50)
-    createPlatform()
+    createPlatform(-10,740,310,300)
     createPlatform(-100,450,600,10)
     createPlatform(490,450,10,100)
     createPlatform(350,500,100,10)
@@ -60,7 +60,7 @@ $(function () {
     createCannon("top",1100,1000,50,50,)
     createCannon("top",1200,3000,50,50,)
     
-
+  
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////

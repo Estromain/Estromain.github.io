@@ -26,7 +26,10 @@ const player = {
   onGround: false,
   facingRight: true,
   deadAndDeathAnimationDone: false,
+  
 };
+
+
 
 let hitDx;
 let hitDy;

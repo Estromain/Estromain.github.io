@@ -86,7 +86,7 @@
                 player.shoot();
             }
         }
-        
+
         function onKeyUp(e) {
             if (_state === 'ducking') {
                 player.duckout();
