@@ -40,25 +40,33 @@ $(function () {
     createPlatform(-10,740,310,300)
     createPlatform(-100,450,600,10)
     createPlatform(490,450,10,100)
+    createPlatform(495,550,10,25)
+    createPlatform(502,570,10,30)
     createPlatform(350,500,100,10)
     createPlatform(440,500,10,100)
+    createPlatform(350,580,85,10)
+    createPlatform(445,595,10,10)
+    createPlatform(410,720,140,40)
+    createPlatform(300,710,11,20)
+    createPlatform(80,625,20,125)
     // TODO 3 - Create Collectables
     createCollectable("small",1300,550,5,1,1150,1350,2)
     createCollectable("small",1400,550,5,1,1150,1350,2)
     createCollectable("small",1200,550,5,1,1150,1350,2)
+    createCollectable("small",380,520,.1,1)
 
     
     // TODO 4 - Create Cannons
     createCannon("bottom",200)
-    createCannon("top",400,2000,50,50,)
-    createCannon("top",500,1750,50,50,)
-    createCannon("top",600,2250,50,50,)
-    createCannon("top",700,1500,50,50,)
-    createCannon("top",800,2500,50,50,)
-    createCannon("top",900,1250,50,50,)
-    createCannon("top",1000,2750,50,50,)
-    createCannon("top",1100,1000,50,50,)
-    createCannon("top",1200,3000,50,50,)
+    // createCannon("top",400,2000,50,50,)
+    // createCannon("top",500,1750,50,50,)
+    // createCannon("top",600,2250,50,50,)
+    // createCannon("top",700,1500,50,50,)
+    // createCannon("top",800,2500,50,50,)
+    // createCannon("top",900,1250,50,50,)
+    // createCannon("top",1000,2750,50,50,)
+    // createCannon("top",1100,1000,50,50,)
+    // createCannon("top",1200,3000,50,50,)
     
   
     //////////////////////////////////
